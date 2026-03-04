@@ -11,9 +11,7 @@ int main(){
     sensor.push_back(150.5);
 
     for(int i=0; i<sensor.size(); i++){
-        std::cout<<sensor[i] << std::endl;
         sensor[i] = sensor[i]*1.1;
-        std::cout<<sensor[i] << std::endl << std::endl;
     }
 
     std::ofstream fileTulis("hasil_kalibrasi.txt"); 

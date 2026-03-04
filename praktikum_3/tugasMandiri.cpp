@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 class RekeningBank{
     private:
@@ -26,11 +27,13 @@ class RekeningBank{
 };
 
 int main(){
-    RekeningBank myRekening(271000.0);
+    RekeningBank myRekening(2710.0);
     myRekening.setor(0.0);
     myRekening.setor(6);
-    myRekening.tarik(271000.0);
+    myRekening.setor(0.05);
+    myRekening.tarik(2710.0);
     myRekening.tarik(1.0);
+    myRekening.tarik(4545);
 
     return 0;
 }
