@@ -1,0 +1,4 @@
+Partikel 1 | Posisi: (271, 6) | Jarak: 266.002
+Partikel 2 | Posisi: (20, 26) | Jarak: 25.807
+Partikel 3 | Posisi: (20, 30) | Jarak: 29.1548
+Partikel 4 | Posisi: (19, 99) | Jarak: 95.0368
